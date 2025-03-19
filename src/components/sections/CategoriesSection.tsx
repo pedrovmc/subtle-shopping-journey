@@ -1,7 +1,7 @@
 
 import React from 'react';
 import CategoryCard from '../ui/CategoryCard';
-import { ShoppingBag, Wine, Beef, Apple, Shower, Home, Coffee, Gift } from 'lucide-react';
+import { ShoppingBag, Wine, Beef, Apple, Bath, Home, Coffee, Gift } from 'lucide-react';
 
 const categories = [
   { 
@@ -36,7 +36,7 @@ const categories = [
     id: 5, 
     title: 'Higiene e Beleza', 
     slug: 'higiene-beleza', 
-    icon: <Shower size={24} className="text-shop-light-blue" />, 
+    icon: <Bath size={24} className="text-shop-light-blue" />, 
     color: 'bg-shop-light-blue' 
   },
   { 
